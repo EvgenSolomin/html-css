@@ -1,0 +1,23 @@
+.link{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+}
+.link a{
+    text-decoration: none;
+    color: brown;
+    transition: all 0.6s;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.link a:hover{
+    color: blue;
+    font-size: 20px;
+    opacity: 0.9;
+}
+.link a:visited{
+    color: white;
+    opacity: 0.9;
+}

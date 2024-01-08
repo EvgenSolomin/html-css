@@ -1,0 +1,21 @@
+.box_model{
+    background-color: black;
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+#box_1{
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+}
+#box_2{
+    background-color: aquamarine;
+    margin-top: 50px;
+    padding: 30px;
+}
+#box_3{
+    background-color: bisque;
+    margin: 15px 30px 20px 10px;
+    padding: 10px 20px;
+}

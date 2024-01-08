@@ -1,0 +1,21 @@
+#border_1{
+    border-width: 2px;
+    border-style:solid;
+    border-color: brown;
+}
+#border_2{
+    border: 2px solid black;
+}
+#border_3{
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+#border_4{
+    border-bottom: 2px solid black;
+    border-top: 5px solid orange;
+}
+#border_5{
+    border-right: 3px solid red;
+    border-left: 3px solid red;
+    border-radius: 5px;
+}

@@ -1,0 +1,30 @@
+header{
+    font-family: Arial;
+    /*font-size: larger;*/
+}
+h1{
+    font-size: 40px;
+}
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.colors{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#text_1{
+    font: optional;
+}
+#text_2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+#text_3{
+    font-size: 10px;
+    
+}
+#text_4{
+    font-size: 20;
+    font-weight: bold;
+    font-style: oblique;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+<body>
+    <h1>Формы</h1>
+    <form>
+        <div>
+            <label for="idtext">Text</label>
+            <input type="text" id="idtext" value="Enter any text">
+        </div>
+
+        <div>
+           <label for="idemail">Email</label>
+            <input type="email" id="idemail" placeholder="Enter your email"> 
+        </div>
+
+        <div>
+            <label for="idpass">Password</label>
+             <input type="password" id="idpass" placeholder="Enter password"> 
+         </div>
+
+         <div>
+            <label for="idnum">Number</label>
+             <input type="number" id="idnam" min="0"> 
+         </div>
+
+         <div>
+            <label for="idrange">Range</label>
+             <input type="range" id="idrange" min="0" max="20" step="1"> 
+         </div>
+
+         <div>
+            <label for="iddate">Date</label>
+             <input type="date" id="iddate"> 
+         </div>
+
+         <div>
+            <label for="idcolor">Color</label>
+             <input type="color" id="idcolor"> 
+         </div>
+
+         <div>
+            <label>Radiobox</label>
+             <input type="radio" name="idradio"> r
+             <input type="radio" name="idradio">a
+             <input type="radio" name="idradio">d
+             <input type="radio" name="idradio">i
+             <input type="radio" name="idradio">o
+         </div>
+
+         <div>
+            <label>Checkbox</label>
+             <input type="checkbox" name="idcb">c
+             <input type="checkbox" name="idcb">h
+             <input type="checkbox" name="idcb">e
+             <input type="checkbox" name="idcb">c
+             <input type="checkbox" name="idcb">k
+         </div>
+
+         <div>
+            <label for="idmassage">Message</label><br>
+            <textarea name="Message" id="idmassage" cols="30" rows="10" placeholder="Enter message"></textarea>
+         </div>
+
+         <div>
+            <label for="idsex">Sex</label>
+            <select id="idsex">
+                <option value="">Man</option>
+                <option value="">Women</option>
+                <option value="">Other</option>
+            </select> 
+         </div>
+
+         <div>
+            <input type="submit" value="submit">
+         </div>
+
+    </form>
+</body>
+</html>

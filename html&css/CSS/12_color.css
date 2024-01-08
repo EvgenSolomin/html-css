@@ -1,0 +1,34 @@
+#headtext{
+    background-color: black;
+    color: white;
+}
+.text{
+    background-color: rgb(210, 210, 210);
+}
+.colors{
+    background-color: bisque;
+}
+.borders{
+    background-color: rgba(220, 220, 220, 1);
+}
+#colors_1{
+    color: blue;
+}
+/* 00 - ff */
+#colors_2{
+    color: #ff00ff;
+}
+/* 0-f */
+#colors_3{
+    color: #f00;
+}
+/* 0-255 */
+#colors_4{
+    color: rgb(150, 150, 150);
+}
+#colors_5{
+    color: rgba(0, 0, 0, 0.5);
+}
+#colors_6{
+    opacity: 0.2;
+}
